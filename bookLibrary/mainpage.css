@@ -1,0 +1,33 @@
+
+body{ background: radial-gradient(circle, rgb(175, 232, 18) 0%, rgba(252,70,107,1) 100%); 
+    text-align: center;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    text-align: center;
+    height: 3em;
+    width: 100%;
+    background-color: yellow;
+    box-shadow: 1px 5px 5px red;
+}
+.heading{
+    font-size: 30px;
+    margin: 0px;
+}
+img{
+    height:120px;
+width: 150px;
+
+}
+
+button{
+    background-color: rgb(241, 187, 8);
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+    width: 104px;
+    margin: 20px;
+    border-radius: 9px;
+    }
+
