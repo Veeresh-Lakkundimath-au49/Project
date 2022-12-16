@@ -1,0 +1,67 @@
+
+body{ 
+    text-align: center;
+    margin: 0px;
+    background-size: cover;
+    font-family: 'Zen Dots', cursive;
+    background-image:url(https://cdn.pixabay.com/photo/2016/03/27/19/32/book-1283865_960_720.jpg)
+}
+.header{
+    text-align: center;
+    height: 3em;
+    width: 100%;
+    background-color: gray;
+    box-shadow: 1px 5px 5px rgb(21, 17, 17);
+}
+.heading{
+    
+    font-size: 30px;
+    margin: 0px;
+}
+.books-box{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.books-container{
+    /* box-shadow: 5px 5px 40px green; */
+    margin: 20px;
+    
+    /* border: red solid 3px; */
+    /* height: auto; */
+    background-color:gray;
+    width: 200px;
+}
+
+.book-name{
+  color: black;
+    font-family: 'Roboto', sans-serif;
+}
+  /* Style the search bar */
+  #search {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /* Style the search button */
+  button {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Style the search button when it is clicked */
+  button:active {
+    background-color: #45a049;
+  }

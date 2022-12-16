@@ -1,0 +1,58 @@
+
+ body{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Varela Round', sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2012/03/01/00/28/abstract-19616_960_720.jpg);
+}
+
+.heading{
+    font-size: 6em;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.slogan{
+    font-size: 2em;
+}
+.main-box{
+    font-family: 'Zen Dots', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signup-logo{
+    position: relative;
+    right: -4em;
+    top: 3em;
+}
+.login-logo{
+    position: relative;
+    right: -4em;
+    top: 3em;
+}
+.contaner-box{
+justify-content: center;
+    background-color:rgb(251, 232, 157);
+    position: relative;
+    top: -3em;
+    margin: 90px;
+    border-radius: 15px;   
+
+height: 23em;
+width: 25em;
+
+}
+button{
+    position: relative;
+    background-color: rgb(241, 187, 8);
+    position: relative;
+    top: 11em;
+    cursor: pointer;
+    height: 40px;
+    width: 104px;
+    margin: 20px;
+    border-radius: 9px;
+    }
+
