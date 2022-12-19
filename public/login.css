@@ -75,10 +75,11 @@ button{
     font-family: 'Zen Dots', cursive; 
 }
     button:hover{
-        transition: 1s;
-        transition-delay: 0.3s;
-       background-color: aliceblue;
-       color: black;
+        border: red solid;
+    color: aliceblue;
+    background-color: black;
+    transition-delay: 0.5s;
+    transition: 1s;
         
     }
     
