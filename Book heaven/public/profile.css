@@ -1,0 +1,115 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2018/02/15/14/37/paper-3155438_960_720.jpg');
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+     font-family: 'Zen Dots', cursive;
+}
+
+.heading{
+    position: absolute;
+    font-size: 85px;
+    top: -5%;
+    left: 54%;
+    height: auto;
+    width: auto;
+    text-shadow: 1px 1px 17px red;
+
+}
+.heading2{
+    position: absolute;
+    font-size: 30px;
+    top: 20%;
+    left: 58%;
+    height: auto;
+    width: auto;
+    text-shadow: 1px 1px 17px red;
+   
+}
+
+#profile{
+    position: absolute;
+    top: 4.4em;
+    left: 5em;
+ 
+}
+
+.info{
+    background: transparent;
+    position: absolute;
+    text-align: center;
+    top: 17em;
+    left: 25em;
+   height: 25em;
+   width:25em;
+    border-radius: 1000px;
+}
+img{
+    border-radius: 1000px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 1px 1px 10px 5px rgb(249, 16, 3);
+}
+
+h1{
+    position: relative;
+    top: 2em;
+    
+}
+h2{
+    position: relative;
+top: 6em;
+}
+
+h3{
+    position: relative;
+    top: 5.5em;
+
+}
+#btnBox{
+display: flex;
+position: absolute;
+top: 77%;
+left: 60%;
+}
+.flex-box{
+    cursor: pointer;
+    font-size: 15px;
+    height: 50px;
+    width: 170px;
+    margin-right: 130px;
+    border-radius: 10px;
+    background: transparent;
+    font-family: 'Zen Dots', cursive; 
+}
+
+.flex-box:hover{
+    border: red solid;
+    color: aliceblue;
+    background-color: black;
+    transition-delay: 0.5s;
+    transition: 1s;
+}
+.logoutbtn{
+    font-size: 15px;
+}
+.logout{
+    position: absolute;
+    top: 40em;
+    left: 16em;
+    height: 6em;
+    width: 6em;
+    border-radius: 47px;
+    background: transparent;
+    font-family: 'Zen Dots', cursive;
+    cursor: pointer;
+}
+
+.logout:hover{
+    color: aliceblue;
+    background-color: red;
+    transition-delay: 0.5s;
+    transition: 1s;
+    transform: scale(1.1);
+
+}

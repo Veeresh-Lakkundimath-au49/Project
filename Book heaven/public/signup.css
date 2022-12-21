@@ -1,0 +1,135 @@
+
+body{
+    margin: 0PX;
+    background-size: cover;
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/02/11/03/hallelujah-6516410_960_720.jpg);
+    font-family: 'Zen Dots', cursive;
+}
+h1{
+font-size: 37px;
+ position: absolute;
+ left: 39%;
+ top: 7%;
+color: antiquewhite;
+    text-align: center;
+   
+}
+.header{
+    text-align: center;
+    height: 3em;
+    width: 100%;
+    background-color: rgb(134, 134, 73);
+    box-shadow: 1px 5px 5px red;
+}
+.heading{
+    font-size: 30px;
+    margin: 00px;
+}
+
+span {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    transition: 0.6s;
+
+  }
+  input:focus ~ span,
+  input:valid ~ span {
+    transform: translateX(-14px) translateY(-32px);
+  }
+.form-div{
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    background-color: rgba(159, 159, 91, 0.9);
+    opacity: 1;
+height: auto;
+width: 30em;
+border-radius: 20PX;
+text-align: center;
+
+}
+button{
+    background: transparent;
+    height: 3em;
+    width: 12em;
+    font-size: 13px;
+    size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button{
+    font-size: 20px;
+    position: relative;
+    top: -26px;
+   
+    font-family: 'Zen Dots', cursive;
+
+}
+button:hover{
+    border: red solid;
+    color: aliceblue;
+    background-color: black;
+    transition-delay: 0.5s;
+    transition: 1s;
+    
+}
+ .input{
+    position: relative;
+ }
+input{
+    margin-top: 10px;
+    margin-bottom: 1.2em;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+}
+.custom-file-input{
+    position: relative;
+    left: 5.4em;
+    margin-top: 20px;
+}
+.custom-file-input {
+    color: transparent;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Upload profile image ';
+    color: black;
+    display: inline-block;
+    background-color: aliceblue;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+  }
+
+  .login-p{
+position: relative;
+top: -1.5em;
+left: 3em;
+  }
+
+  .click-here{
+    position: relative;
+    top: 2em;
+    left: -9em;
+   color: red;
+  }
+  .click-here:hover{
+    border: red solid;
+    color: aliceblue;
+    background-color: black;
+    transition-delay: 0.5s;
+    transition: 1s;
+    cursor: pointer;
+   
+    
+}

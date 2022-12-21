@@ -1,0 +1,90 @@
+
+ body{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Varela Round', sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2012/03/01/00/28/abstract-19616_960_720.jpg);
+}
+
+.heading{
+    font-size: 6em;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.slogan{
+    font-size: 2em;
+}
+.main-box{
+    font-family: 'Zen Dots', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signup-logo{
+    position: relative;
+    right: -4em;
+    top: 3em;
+}
+.login-logo{
+    transform: rotate(90deg);
+    position: relative;
+    right: -4em;
+    top: 3em;
+}
+.contaner-box{
+justify-content: center;
+    background-color:rgb(251, 232, 157);
+    position: relative;
+    top: -3em;
+    margin: 90px;
+    border-radius: 15px;   
+
+height: 23em;
+width: 25em;
+
+}
+.signup-p{
+    position: absolute;
+    top: -1em;
+    right: 1em;
+    font-family: 'Zen Dots', cursive;
+  font-size: 25px;
+}
+.login-p{
+    position: absolute;
+    top: -1em;
+    right: 1.5em;
+    font-family: 'Zen Dots', cursive;
+  font-size: 25px;
+}
+.signup{
+    position: relative;
+    top: 10em;
+    right: 4em;
+    height: 3em;
+    width: 12em;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login{
+    position: relative;
+    top: 10em;
+    right: 4em;
+    height: 3em;
+    width: 12em;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: red solid;
+    color: aliceblue;
+    background-color: black;
+    transition-delay: 0.5s;
+    transition: 1s;
+    
+}
