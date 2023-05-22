@@ -1,0 +1,92 @@
+.navBarItem{    
+// background-color: blue;
+padding-right: 20px;
+ margin-left: 90px;
+// border-radius: 10px;
+// display: inline-block;
+//float: left;
+margin-top:1px;
+  }
+
+.navBar{
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    top:15%;
+    background-color: rgb(86, 86, 253);
+    padding-right: 150px;
+    margin-left: 15%;
+    margin-right: 20%;
+    border-radius: 25px;
+    height:50px;
+    align-items: center;
+}
+
+.loginBtn{
+// background-color: rgb(247 132 15);
+// height: 2.7em;
+//     width: 8em;
+// border-radius: 20px;
+// // margin-top:50px;
+// margin-top:1px;
+// border: 0px rgb(247 132 15);
+// margin-right: 10px;
+background-color: rgb(247, 132, 15);
+    height: 3.7em;
+    width: 7em;
+    border-radius: 30px;
+    margin-top: 1px;
+    border: 12px rgb(247, 132, 15);
+    margin-right: 0px;
+    margin-left: 15px;
+    font-family: 'HankRndThin', sans-serif;
+}
+
+// background-color: rgb(247, 132, 15);
+//     height: 3.7em;
+//     width: 7em;
+//     border-radius: 30px;
+//     margin-top: 1px;
+//     border: 12px rgb(247, 132, 15);
+//     margin-right: 0px;
+
+.lpImg{
+
+  position: relative;
+  top:0%;
+  left:0%;
+  
+}
+
+// .logo{
+//  position:absolute;
+//  top: -86%;
+//  left: -17%;
+// }
+
+.navBarLeft{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 64, 128);
+    position: absolute;
+    top:3%;
+    left:15%;
+    height:3%;
+    width: 35%;
+    border-radius: 30px;
+}
+
+.navBarRight{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(0, 64, 128);
+  position: absolute;
+  top: 3%;
+  right: 10%;
+  width: 38%;
+  height:3%;
+  border-radius: 30px;
+}
+
